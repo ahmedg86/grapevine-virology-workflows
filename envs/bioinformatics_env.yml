@@ -1,0 +1,24 @@
+name: bioinformatics_env
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - fastqc
+  - multiqc
+  - cutadapt
+  - trimmomatic
+  - bwa
+  - bowtie2
+  - minimap2
+  - samtools
+  - bcftools
+  - spades
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
+  - r-base
+  - r-tidyverse
+  - r-ggplot2
+  - r-data.table
