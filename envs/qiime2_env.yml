@@ -1,0 +1,16 @@
+name: qiime2_env
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - qiime2
+  - q2cli
+  - q2-feature-table
+  - q2-diversity
+  - q2-taxa
+  - q2-phylogeny
+  - q2-emperor
+  - jupyter
+  - pandas
+  - matplotlib
